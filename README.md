@@ -2,19 +2,19 @@
 
 A custom ToolSet management extension for Foundry Nuke.
 
-Enhances Nuke's built-in ToolSets with descriptions, a search panel, and menu tooltips.
+The purpose of this tool is to bring some quality-of-life improvements to Nuke's built in ToolSets by introducing editable descriptions, a search panel and menu tooltips.
 
 ## Features
 
 - Create ToolSets with descriptions
 - Add or edit descriptions for existing ToolSets
 - Search ToolSets by name or description
-- Display descriptions as tooltips in the ToolSets menu
+- Display descriptions as tooltips when hovering over ToolSets in the menu
 
 ## Installation
 
 1. Download the plugin and ensure the folder is named `ToolsetManager`.
-2. Place the folder inside your Nuke configuration directory:
+2. Place the folder inside your .nuke directory:
    - **Windows:** `C:\Users\<username>\.nuke\`
    - **Linux:** `~/.nuke/`
 3. Open your existing `init.py` file in the `.nuke` directory, or create one if it does not exist.
@@ -29,7 +29,7 @@ If `import nuke` already exists, do not add it again.
 
 5. Restart Nuke.
 
-Your directory structure should look like this:
+Your folder structure should look like this:
 
 ```text
 .nuke/
@@ -38,7 +38,8 @@ Your directory structure should look like this:
     ├── menu.py
     ├── toolset_manager.py
     ├── descriptions.json
-    └── README.md
+    ├── README.md
+    └── LICENSE
 ```
 
 You do not need to modify your existing `.nuke/menu.py`.
@@ -47,19 +48,20 @@ No additional Python packages are required.
 
 ## Included Files
 
-- `toolset_manager.py` — Main plugin implementation
-- `menu.py` — Nuke menu integration
-- `descriptions.json` — Stores ToolSet descriptions
-- `README.md` — Installation and usage documentation
+- `toolset_manager.py` - Main plugin code
+- `menu.py` - Nuke menu integration
+- `descriptions.json` - Stores ToolSet descriptions
+- `README.md` - Installation and usage instructions
+- `LICENSE` - MIT License
 
 ## Usage
 
 Open Nuke's **ToolSets** menu to access:
 
-- **Create** — Create a ToolSet and assign a description.
-- **Edit Description** — Select an existing ToolSet to add or modify its description.
-- **Search ToolSets** — Search by ToolSet name or description, then double-click a result to load it.
--   Hover over a ToolSet in the menu to view its description.
+- **Create:** Create a ToolSet and give it a description.
+- **Edit Description:** Add or change the description of an existing ToolSet.
+- **Search ToolSets:** Search by ToolSet name or description.
+- Hover over a ToolSet in the menu to view its description.
 
 ## Description Storage
 
@@ -73,13 +75,12 @@ Supports both PySide2 and PySide6.
 
 Tested on:
 
-- **Nuke 14.1v8** — Linux, PySide2
-- **Nuke 16.0v6** — Windows, PySide6
+- **Nuke 14.1v8** - Linux, PySide2
+- **Nuke 16.0v6** - Windows, PySide6
 
 Other Nuke versions and operating systems may work but have not yet been verified.
 
 ## Notes
 
-- Toolset Manager extends Nuke's existing ToolSets system.
-- ToolSets remain stored and loaded through Nuke's native functionality.
-- Descriptions are stored separately from the `.nk` ToolSet files.
+- The plugin works on top of Nuke's native ToolSets system. It doesn't change how Nuke saves or loads your ToolSets.
+- Descriptions are stored separately, so your original `.nk` ToolSet files remain untouched.
