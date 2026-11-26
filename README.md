@@ -64,11 +64,11 @@ Create a ToolSet and give it a description.
 
 <img src="media/create_toolset.gif" width="400">
 
-### Edit Description
+### Menu Tooltips
 
-Add or change the description of an existing ToolSet.
+Hover over a ToolSet in the menu to view its description.
 
-<img src="media/edit_toolset.gif" width="400">
+<img src="media/tooltip_toolset.gif" width="400">
 
 ### Search ToolSets
 
@@ -76,11 +76,11 @@ Search by ToolSet name or description.
 
 <img src="media/search_toolset.gif" width="400">
 
-### Menu Tooltips
+### Edit Description
 
-Hover over a ToolSet in the menu to view its description.
+Add or change the description of an existing ToolSet.
 
-<img src="media/tooltip_toolset.gif" width="400">
+<img src="media/edit_toolset.gif" width="400">
 
 ## Description Storage
 
