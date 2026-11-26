@@ -56,12 +56,31 @@ No additional Python packages are required.
 
 ## Usage
 
-Open Nuke's **ToolSets** menu to access:
+Open Nuke's **ToolSets** menu to access the following features.
 
-- **Create:** Create a ToolSet and give it a description.
-- **Edit Description:** Add or change the description of an existing ToolSet.
-- **Search ToolSets:** Search by ToolSet name or description.
-- Hover over a ToolSet in the menu to view its description.
+### Create
+
+Create a ToolSet and give it a description.
+
+![Create ToolSet](media/create_toolset.gif)
+
+### Edit Description
+
+Add or change the description of an existing ToolSet.
+
+![Edit Description](media/edit_toolset.gif)
+
+### Search ToolSets
+
+Search by ToolSet name or description.
+
+![Search ToolSets](media/search_toolset.gif)
+
+### Menu Tooltips
+
+Hover over a ToolSet in the menu to view its description.
+
+![Menu Tooltips](media/tooltip_toolset.gif)
 
 ## Description Storage
 
