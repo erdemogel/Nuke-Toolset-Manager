@@ -62,25 +62,25 @@ Open Nuke's **ToolSets** menu to access the following features.
 
 Create a ToolSet and give it a description.
 
-![Create ToolSet](media/create_toolset.gif)
+<img src="media/create_toolset.gif" width="400">
 
 ### Edit Description
 
 Add or change the description of an existing ToolSet.
 
-![Edit Description](media/edit_toolset.gif)
+<img src="media/edit_toolset.gif" width="400">
 
 ### Search ToolSets
 
 Search by ToolSet name or description.
 
-![Search ToolSets](media/search_toolset.gif)
+<img src="media/search_toolset.gif" width="400">
 
 ### Menu Tooltips
 
 Hover over a ToolSet in the menu to view its description.
 
-![Menu Tooltips](media/tooltip_toolset.gif)
+<img src="media/tooltip_toolset.gif" width="400">
 
 ## Description Storage
 
